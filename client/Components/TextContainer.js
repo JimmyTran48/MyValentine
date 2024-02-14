@@ -1,7 +1,11 @@
 import React from 'react';
 
 function TextContainer({ text }) {
-  return <p>{text}</p>;
+  return (
+    <div id='Text'>
+      <p>{text}</p>
+    </div>
+  );
 }
 
 export default TextContainer;
