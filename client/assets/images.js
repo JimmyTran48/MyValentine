@@ -1,8 +1,8 @@
 const images = [
   'https://media.tenor.com/dTkq2FK0nMcAAAAi/heart-love.gif',
-  'https://media1.tenor.com/m/AbakDm9tIkEAAAAC/white-cat-cats.gif',
+  'https://media.tenor.com/YoAqt_jAr-UAAAAi/sad-broken-heart.gif',
   'https://media.tenor.com/yhMZIW9G7BkAAAAi/peachcat-cat.gif',
-  'https://c.tenor.com/BNjTMNXh58wAAAAC/tenor.gif',
+  'https://media.tenor.com/dNLReRVOU4sAAAAi/mochi-mochi-peach-cat-crying.gif',
 ];
 
 export const successImage =

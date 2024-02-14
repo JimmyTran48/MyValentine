@@ -11,7 +11,7 @@ function App() {
   const [image, setImage] = useState(0);
   const [text, setText] = useState(0);
   const [success, setSuccess] = useState(false);
-
+  const [count, setCount] = useState(0);
   function yes() {
     setSuccess(true);
   }
@@ -19,6 +19,7 @@ function App() {
   function no() {
     setText((prev) => (prev >= texts.length - 1 ? prev : prev + 1));
     setImage((prev) => (prev >= images.length - 1 ? 1 : prev + 1));
+    setCount((prev) => prev + 1);
   }
 
   return (
@@ -35,7 +36,7 @@ function App() {
         <TextContainer text={texts[text]} />
       )}
       {/*  */}
-      {success ? '' : <ButtonContainer yes={yes} no={no} />}
+      {success ? '' : <ButtonContainer yes={yes} no={no} count={count} />}
     </React.Fragment>
   );
 }
